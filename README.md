@@ -1,2 +1,3 @@
 # jay-whatsapp-clone
-Created with CodeSandbox
+
+This is a Whatsapp clone created by myself using HTML,CSS, and Javascript with React Framework
