@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 25px;
+}
+.other-navs {
+  color: white;
+  display: flex;
+  gap: 30px;
+  position: relative;
+  top: 30px;
+  right: 30px;
+}
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+input[type="search"] {
+  padding: 5px;
+  display: block;
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  border-radius: 30px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  color: rgb(151, 149, 149);
+}
+.search {
+  margin-top: 70px;
+}
+.dp img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.message-content {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  height: 60px;
+}
+
+.time-count {
+  position: absolute;
+  right: 20px;
+}
+.time {
+  color: #25d366;
+  font-size: 10px;
+  font-weight: 500;
+}
+.messageCount {
+  color: black;
+  background-color: #25d366;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid transparent;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  font-weight: 500;
+  position: relative;
+  left: 25px;
+  bottom: 5px;
+}
+.message {
+  color: rgb(68, 67, 67);
+  font-size: 12px;
+  position: relative;
+  bottom: 12px;
+  font-weight: 500;
+}
+.title-message {
+  position: relative;
+  bottom: 10px;
+}
+.messageOne {
+  position: relative;
+  margin-top: 15px;
+}
